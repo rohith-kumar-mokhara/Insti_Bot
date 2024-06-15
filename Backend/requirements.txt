@@ -1,0 +1,3 @@
+flask
+embedchain
+python-dotenv

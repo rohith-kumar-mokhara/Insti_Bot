@@ -40,7 +40,7 @@ const Sidebar = () => {
         InstiBot
       </Typography>
       <List>
-        {['Chat', 'FAQ', 'Feedback'].map((text, index) => (
+        {['Chat', 'FAQS', 'Feedback'].map((text, index) => (
           <Link to={`/${text.toLowerCase()}`} key={text} className={classes.link}>
             <ListItem button>
               <ListItemText primary={text} />
